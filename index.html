@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Rac - Soluções em Infraestrutura Tecnológica</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo" style="display: flex; gap: 6px;">
+                    <h2 style="color: var(--text-color)">Smart <h2 style="color: var(--primary-color);">Rac</h2></h2>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active" data-section="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link" data-section="services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#scheduling" class="nav-link" data-section="scheduling">Agendamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link" data-section="about">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link" data-section="contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="nav-toggle" id="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="section active" id="home">
+            <div class="hero">
+                <div class="hero-content">
+                    <div style="display: flex; gap: 6px; justify-content: center;">
+                        <h2 class="hero-title" style="color: var(--text-color)">Smart <h2 class="hero-title" style="color: var(--primary-color);">Rac</h2></h2>
+                    </div>
+                    <p class="hero-subtitle">Soluções Inteligentes em Infraestrutura Tecnológica</p>
+                    <p class="hero-description">
+                        Especialistas em implementação de workstations, manutenção de computadores, 
+                        infraestrutura de redes e sistemas de monitoramento CFTV.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-section="services">Nossos Serviços</button>
+                        <button class="btn btn-secondary" data-section="contact">Entre em Contato</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <i class="fas fa-desktop"></i>
+                        <span>Workstations</span>
+                    </div>
+                    <div class="floating-card">
+                        <i class="fas fa-network-wired"></i>
+                        <span>Redes</span>
+                    </div>
+                    <div class="floating-card">
+                        <i class="fas fa-video"></i>
+                        <span>CFTV</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section" id="services" style="min-height: 100vh;">
+            <div class="container">
+                <h2 class="section-title">Serviços Prestados</h2>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Implementação de WorkStations</h3>
+                        <p>Organização física do espaço de trabalho, incluindo arranjo ergonômico das mesas, disposição dos computadores e ajustes para garantir um ambiente confortável e produtivo.</p>
+                        
+                        <div class="service-materials">
+                            <h4>Materiais Utilizados:</h4>
+                            <ul>
+                                <li>Anilha de Identificação de cabos de rede</li>
+                                <li>Organizador Espiral</li>
+                                <li>Abraçadeira Plástica</li>
+                                <li>Régua de Alimentação</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Sistemas de CFTV</h3>
+                        <p>Sistema de Circuito Fechado de Televisão com rede de câmeras interligadas que monitoram e gravam áreas específicas em tempo real, proporcionando vigilância e segurança visual para diversos ambientes.</p>
+                        
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Segurança 24/7</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-eye"></i>
+                                <span>Monitoramento Remoto</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Infraestrutura de Redes</h3>
+                        <p>Conjunto de hardware, software, cabeamento e protocolos interconectados que possibilitam comunicação eficiente e segura entre dispositivos.</p>
+                        
+                        <div class="service-devices">
+                            <h4>Principais Dispositivos:</h4>
+                            <div class="devices-grid">
+                                <div class="device">
+                                    <i class="fas fa-ethernet"></i>
+                                    <span>Cabo de Rede (RJ45)</span>
+                                </div>
+                                <div class="device">
+                                    <i class="fas fa-project-diagram"></i>
+                                    <span>Switch de Rede 24 Portas</span>
+                                </div>
+                                <div class="device">
+                                    <i class="fas fa-plug"></i>
+                                    <span>Patch Panel</span>
+                                </div>
+                                <div class="device">
+                                    <i class="fas fa-server"></i>
+                                    <span>Rack 19''</span>
+                                </div>
+                                <div class="device">
+                                    <i class="fas fa-battery-half"></i>
+                                    <span>No-Break 600VA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-pillars">
+                    <h2>Nossos Pilares</h2>
+                    <div class="pillars-grid">
+                        <div class="pillar">
+                            <div class="pillar-icon">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                            <h3>Organização e Planejamento</h3>
+                            <p>Contamos com profissionais altamente especializados, seguindo abordagem organizada e planejamento meticuloso. Combinamos perícia técnica, coordenação eficiente e execução impecável.</p>
+                        </div>
+                        
+                        <div class="pillar">
+                            <div class="pillar-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3>Suporte Técnico</h3>
+                            <p>Nossos colaboradores oferecem suporte técnico de qualidade, fornecendo orientação especializada e assistência eficaz, com conhecimento sólido e auxílio dedicado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scheduling Section -->
+        <section class="section" id="scheduling" style="min-height: 100vh;">
+            <div class="container">
+                <h2 class="section-title">Agendamento de Serviços</h2>
+                
+                <form class="scheduling-form" id="schedulingForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Serviço Desejado</label>
+                            <select id="service" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="workstation">Implementação de WorkStations</option>
+                                <option value="cftv">Sistemas de CFTV</option>
+                                <option value="network">Infraestrutura de Redes</option>
+                                <option value="maintenance">Manutenção de Computadores</option>
+                                <option value="support">Suporte Técnico</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date">Data Preferencial</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="time">Horário Preferencial</label>
+                            <input type="time" id="time" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description">Descrição do Serviço</label>
+                        <textarea id="description" rows="4" placeholder="Descreva detalhadamente sua necessidade..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Agendar Serviço</button>
+                </form>
+            </div>
+        </section>
+
+        
+        <section class="section" id="about" style="min-height: 100vh;">
+            <div class="container">
+                <h2 class="section-title">Quem Somos</h2>
+
+                <div class="about-intro">
+                    <p>Somos a <strong>Smart <strong style="color: var(--primary-color)">Rac</strong></strong>! Especializados na implementação de workstations, manutenção de computadores, infraestrutura de redes e sistemas de monitoramento CFTV.</p>
+                    <p>Com expertise em otimização de espaços de trabalho, conectividade avançada e segurança intransigente, estamos comprometidos em elevar a funcionalidade e eficiência dos ambientes corporativos.</p>
+                </div>
+
+                <div class="team">
+                
+                    <h3>Líder</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/natan.jpg" alt="Natan Vieira">
+                                <div class="member-social">
+                                    <a href="https://github.com/NatanVBSS" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/natan-vieira-20053437b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Natan Vieira</h4>
+                            <span>Líder da Start-up</span>
+                        </div>
+                    </div>
+
+                    <!-- Gerentes -->
+                    <h3>Gerentes</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/thiago.png" alt="Thiago Lutes">
+                                <div class="member-social">
+                                    <a href="https://www.linkedin.com/in/thiago-lutes-740aa1289/" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="https://github.com/thiagolutes" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Thiago Lutes</h4>
+                            <span>Gerente de TI</span>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/caique.png" alt="Caique">
+                                <div class="member-social">
+                                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Caique</h4>
+                            <span>Gerente de Materiais</span>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/nicole-l.jpg" alt="Nicole Lemos">
+                                <div class="member-social">
+                                    <a href="https://github.com/Nicole-lemosvb" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/nicole-lemos-b504a82a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Nicole Lemos</h4>
+                            <span>Gerente da Administração</span>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/miquelao.png" alt="Mateus">
+                                <div class="member-social">
+                                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Mateus</h4>
+                            <span>Gerente de Inteligência Artificial</span>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/raika.jpg" alt="Raika">
+                                <div class="member-social">
+                                    <a href="https://github.com/Raykalves" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/rayka-a-218130305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Raika Alves</h4>
+                            <span>Gerente de Projeto</span>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/sem foto.png" alt="Nicole Garcia" style="position: relative; top: -10px;">
+                                <div class="member-social">
+                                    <a href="https://github.com/mundodanili635-design" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="http://www.linkedin.com/in/nicole-garcia-socialmedia" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Nicole Garcia</h4>
+                            <span>Gerente de Comunicação</span>
+                        </div>
+                    </div>
+
+                    <!-- Colaboradores -->
+                    <h3>Colaboradores</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/augusto.png" alt="Augusto">
+                                <div class="member-social">
+                                    <a href="https://github.com/Augustomc65" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Augusto</h4>
+                            <span>Colaborador/Estágiario</span>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-photo">
+                                <img src="assets/sem foto.png" alt="Larissa"  style="position: relative; top: -10px;">
+                                <div class="member-social">
+                                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <h4>Larissa</h4>
+                            <span>Colaboradora/Estágiaria</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact" style="min-height: 100vh;">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>E-mail</strong>
+                                <span>contato@smartrac.com.br</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>(31) 988713140</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Endereço</strong>
+                                <span>Belo Horizonte, Mg - Brasil</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-forms">
+                        <div class="contact-options">
+                            <button class="contact-option active" data-form="email">
+                                <i class="fas fa-envelope"></i>
+                                Enviar E-mail
+                            </button>
+                            <button class="contact-option" data-form="whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </button>
+                        </div>
+                        
+                        <form class="contact-form active" id="emailForm">
+                            <div class="form-group">
+                                <label for="contactName">Nome</label>
+                                <input type="text" id="contactName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactEmail">E-mail</label>
+                                <input type="email" id="contactEmail" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactSubject">Assunto</label>
+                                <input type="text" id="contactSubject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactMessage">Mensagem</label>
+                                <textarea id="contactMessage" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Enviar E-mail</button>
+                        </form>
+                        
+                        <div class="contact-form" id="whatsappForm">
+                            <div class="form-group">
+                                <label for="whatsappName">Nome</label>
+                                <input type="text" id="whatsappName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="whatsappMessage">Mensagem</label>
+                                <textarea id="whatsappMessage" rows="5" placeholder="Digite sua mensagem..." required></textarea>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary" id="whatsappSend">
+                                <i class="fab fa-whatsapp"></i>
+                                Enviar via WhatsApp
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer section" id="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section footer-element">
+                <h3>Smart Rac</h3>
+                <p>Soluções inteligentes em infraestrutura tecnológica para seu negócio.</p>
+            </div>
+            
+            <div class="footer-section footer-element">
+                <h4>Serviços</h4>
+                <ul>
+                    <li>Implementação de WorkStations</li>
+                    <li>Sistemas de CFTV</li>
+                    <li>Infraestrutura de Redes</li>
+                    <li>Suporte Técnico</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section footer-element">
+                <h4>Contato</h4>
+                <ul>
+                    <li>contato@smartrac.com.br</li>
+                    <li>(31) 988713140</li>
+                    <li>São Paulo, SP</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom footer-element">
+            <p>&copy; 2025 Smart Rac. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
